@@ -1,0 +1,22 @@
+POST http://localhost:3000/addCart
+Content-Type: application/json
+
+{
+    "name":"Bong Lang Trung Muoi",
+    "price":"Cha Bong",
+    "img":"16"
+}
+###
+DELETE http://localhost:3000/removeCart/5
+###
+POST http://localhost:3000/address
+Content-Type: application/json
+
+{
+    "first":"Bong Lang Trung Muoi",
+    "last":"Cha Bong",
+    "street":"16",
+    "state":"16",
+    "zipcode":"16",
+    "phonenumber":"16"
+}
